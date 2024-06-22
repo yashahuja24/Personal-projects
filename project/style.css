@@ -1,0 +1,198 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+a
+{
+    text-decoration: none;
+}
+body
+{
+    background-color: rgb(199, 193, 193);
+}
+#navbar
+{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 1;
+}
+#logo
+{
+    height: 70px;
+    width: 150px;
+}
+#cartimg
+{
+    height: 35px;
+    position: relative;
+}
+.text
+{
+    text-decoration: none;
+    font-size: 19px;
+    height: 25px;
+    color: white;
+    position: relative;
+    padding: 10px;
+}
+#searchbar
+{
+    height: 35px;
+    width:500px;
+    position: relative;
+    left:42px;
+}
+#Search
+{
+    height:32px;
+    width:30px;
+    position: relative;
+    top:2px;
+    left: -0.5px;
+}
+#cart
+{
+    font-size: 20px;
+    position: relative;
+    right: 65px;
+    top:5px;
+    padding-left: 27px;
+}
+#chotanavbar
+{
+    height:30px;
+    width: 100%;
+    background-color: rgb(49, 49, 96);
+    display: flex;
+    align-items: center;
+}
+#All
+{
+    color: white;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+.items
+{
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+}
+.items:hover
+{
+    scale: 1.1;
+    border: 1px solid white;
+}
+#outer
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#electonics
+{
+    color: white;
+    position: absolute;
+    right: 50px;
+    top:72px;
+    font-size: 17px;
+    padding:3px;
+}
+#electonics:hover
+{
+    scale: 1.03;
+    border:1px solid white;
+}
+.product
+{
+    height: 300px;
+    width: 100%;
+}
+.photo
+{
+    height: 300px;
+    width:50%;
+}
+.blocks
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 390px;
+    width:350px;
+    text-align: center;
+}
+.heading
+{
+    text-decoration:none;
+    color: black;
+}
+.blockpics
+{
+    height: 330px;
+    width: 310px;
+    position: relative;
+    right: 1px;
+    top:9px;
+}
+.text:hover
+{
+    scale: 1.05;
+    border:1px solid white;
+}
+#logo:hover
+{
+    scale: 1.05;
+    border:1px solid white;
+}
+.blocks:hover
+{
+    scale:1.1;
+    transition: all ease-in-out 0.5s;
+}
+.product:hover
+{
+    scale: 1.02;
+    transition: all ease-in-out 0.5s;
+}
+#backtotop
+{
+    height: 30px;
+    width: 100%;
+    background-color: #344253;
+    text-align: center;
+}
+#back
+{
+    position: relative;
+    top:4px;
+    color: white;
+}
+footer
+{
+    background-color: #232F3E;
+    color: white;
+    height: 150px;
+    width: 100%;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+}
+#amazonend
+{
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logoend
+{
+    height: 60px;
+    width:100px;
+}
